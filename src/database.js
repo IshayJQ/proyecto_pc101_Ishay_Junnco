@@ -1,4 +1,4 @@
-const mysql = require('mysql2');
+const mysql = require('mysql2/promise');
 const { promisify }= require('util');
 
 const { database } = require('./keys');
